@@ -1,0 +1,128 @@
+/*#login {background-color: #f7fcff;
+        border: solid grey 1px;
+        border-radius: 2px;
+        padding: 5px 10px 5px;
+        width: 325px;
+        margin: auto;}
+        
+#login input {max-width: 50px;}
+
+#login button {background-color: #004c75;
+               color: white;
+               padding: 3px 5px 3px;}
+               
+#signout {position: relative;
+          left: 270px;}
+               
+#incorrect {color: red;
+            font-size: 10pt;}   
+*/
+h1 {border: solid black 1px;
+    border-bottom: solid black 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 30px 100px;
+    background-image: url(global-internet-thumbnail.jpg);
+    background-position: 0% 35%;
+    font-size: 28pt;
+    text-shadow: 1px 1px 1px #d3e4ff;}
+
+nav {background-color: #122438;
+     padding: 15px;
+     margin-top: 0;
+     margin-bottom: 10px;}   
+      
+nav a {text-decoration: none;
+	font-size: 13pt;
+       color: #e2f0ff;
+       padding: 15px;}
+       
+nav a:hover {background-color: #07111c;}
+
+#current {text-decoration: underline;}
+
+body {background-color: #dbf4ff;
+      background-image: linear-gradient(to bottom, #88befc, #02195b);
+      margin: auto;
+      width: 90%;
+      font-size: 13pt;}
+    
+main {background-color: #f7fcff;
+      margin-top: 10px;
+      padding: 50px;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.2);}
+     
+h2 {color: #122438;
+    font-size: 22pt;
+    margin-top: 0;}
+
+footer {text-align: center;
+        color: #e2f0ff;}
+
+footer a {color: #d9e8f9;
+          text-decoration: none;}
+         
+footer a:hover {color: white;
+                text-decoration: underline;}
+
+#resume {background-color: white;
+         border: solid grey 1px;
+         padding: 30px;}
+
+#top {text-align: center; font-size: 10pt;}
+
+#scott {font-size: 16pt;}
+
+#resume li {font-size: 11pt;}
+
+#awards li {font-size: 12pt;}
+
+#resume p,td,tr,ul {margin-top: 0;
+                    margin-bottom: 0;}
+
+#resume h3 {margin-bottom: 0;}
+
+#downloadResume {text-align: center;}
+
+#downloadResume a {color: #122438;
+                   text-decoration: none;
+                   font-size: 13pt;}
+
+#downloadResume a:hover {color: #7c8da8;
+                         text-decoration: underline;}
+                         
+#contactMe p {font-size: 15pt;
+              margin-top: 0;}
+              
+#contactMe ul {font-size: 13pt;
+               line-height: 20px;
+               }
+
+#contactMe li {margin-top: 15px;}
+
+#contactMe a {color: blue;
+              text-decoration: none;}
+              
+#contactMe a:hover {text-decoration: underline;}            
+/*
+.post {background-color: #004c75;
+       color: white;
+       border: solid 2px black;
+       border-radius: 5px;
+       box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0 10px 1px rgba(0, 0, 0, 0.3);
+       margin-bottom: 30px;}
+
+.post h3 {margin-top: 10px;
+          margin-left: 15px;
+          text-decoration: underline;}
+          
+.post h3:hover {color: #84b9d6;
+                cursor: pointer;}
+          
+.post p {margin-left: 40px;}
+
+#postBody {width: 700px;
+           height: 300px;}
+
+#postSummary {width: 700px;
+              height: 150px;}  */     

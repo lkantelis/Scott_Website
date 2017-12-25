@@ -1,0 +1,7 @@
+linking javascript
+
+erase old script
+
+body onload (maybe)
+
+i put in the my info tab on the home page, decide later what to do with that

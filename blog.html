@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    <title>Scott Taylor</title>
+    <meta charset="utf-8">
+    <link href="css.css" type="text/css" rel="stylesheet">
+    <script src="javascript.js"></script>
+</head>
+<body onload="onLoadBlog();" >
+    <p id="login">Username: <input id="user" maxlength="20"> &nbsp;Password: <input id="pass" maxlength="20">&nbsp;&nbsp;&nbsp;<button onclick="signIn(1);">Sign in</button></p>
+    
+    <h1>Scott Taylor</h1>
+    
+    <nav>
+        <ul id="tabs">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">My Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="aboutMe.html">About me</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+            <li id='myInfo'><a href='myInfo.html'>MY INFO</a></li>
+        </ul>
+    </nav>
+    <br><hr><br>
+    <main>
+        <span id="allPosts">
+            <div class="post">
+                <h3 onclick="showPost();">This is the title of the post</h3>
+                <p id="hi">This is a summary of what the post is</p>
+            </div>
+            <div class="post">
+                <h3>This is the title of the post</h3>
+                <p>This is a summary of what the post is</p>
+            </div>
+            <div class="post">
+                <h3>This is the title of the post</h3>
+                <p>This is a summary of what the post is</p>
+            </div>
+            <button id='newPostButton' onclick='newPost();'>Create new post</button>
+        </span>
+    </main>
+    
+    <br><br><br><br>
+    
+    <footer>
+        <p>This website was designed by <a id="lauren" href="https://www.facebook.com/lauren.kantelis">Lauren Kantelis</a>, alone in her bedroom because she was bored one day. Please don't steal my stuff ;)</p>
+        <p>&copy; Lauren Kantelis 2016</p>
+    </footer>
+    <br><br>
+    <script type="text/javascript">
+        function newPost() {
+            
+        }
+    </script>
+</body>
+
+</html>

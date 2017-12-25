@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    <title>Scott Taylor</title>
+    <meta charset="utf-8">
+    <link href="css.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <p id="login">Username: <input id="user" maxlength="20"> &nbsp;Password: <input id="pass" maxlength="20">&nbsp;&nbsp;&nbsp;<button onclick="signIn();">Sign in</button></p>
+    
+    <h1>Scott Taylor</h1>
+    
+    <nav>
+        <ul id="tabs">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">My Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="aboutMe.html">About me</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <br><hr><br>
+    <main>
+        
+    </main>
+    
+    <br><br><br><br>
+    
+    <footer>
+        <p>This website was designed by <a id="lauren" href="https://www.facebook.com/lauren.kantelis">Lauren Kantelis</a>, alone in her bedroom because she was bored one day. Please don't steal my stuff ;)</p>
+        <p>&copy; Lauren Kantelis 2016</p>
+    </footer>
+    <br><br>
+    
+    <script type="text/javascript">
+    
+        var count;
+        function signIn() {
+            var user = document.getElementById("user").value;
+            var pass = document.getElementById("pass").value;
+            if ((user==="Scott" && pass==="Taylor" && count !== 1) || (user==="Lauren" && pass==="Kantelis" && count !== 1)) {
+                count = 1;
+                document.getElementById("tabs").innerHTML += "<li id='myInfo'><a href='myInfo.html'>MY INFO</a></li>";
+                document.getElementById("login").innerHTML="<button onclick='signOut();' id='signout'>Sign out</button>";
+            }
+            else {
+                document.getElementById("login").innerHTML += "<br><span id='incorrect'>*Username or password is incorrect</span>";
+            }
+        }
+        
+        function signOut() {
+            count = 0;
+            document.getElementById("myInfo").style.visibility = "hidden";
+            document.getElementById("login").innerHTML= "Username: <input id='user'> &nbsp;Password: <input id='pass'>&nbsp;&nbsp;&nbsp;<button onclick='signIn();'>Sign in</button>";
+        }
+        
+        
+    </script>
+</body>
+
+</html>
